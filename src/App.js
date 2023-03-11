@@ -1,10 +1,10 @@
 import Contacts from "./pages/Contacts.js"
+import CompanyCard from "./components/Companies/CompanyCard.js";
+import Dashboard from "./pages/Dashboard.js";
 function App() {
   return (
-    <div className="App border-black">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Contacts/>
-    </div>
+      //<CompanyCard/>
+      <Dashboard/>
   );
 }
 
