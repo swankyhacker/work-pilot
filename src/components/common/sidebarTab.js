@@ -4,7 +4,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import * as React from "react";
 
-export default function SidebarTab({ open, icon, text }) {
+export default function SidebarTab({ open, icon, text, onClick }) {
   return (
     <ListItem key={text} disablePadding sx={{ display: "block" }}>
       <ListItemButton
@@ -13,6 +13,7 @@ export default function SidebarTab({ open, icon, text }) {
           justifyContent: open ? "initial" : "center",
           px: 2.5,
         }}
+        onClick={onClick}
       >
         <ListItemIcon
           sx={{
