@@ -8,14 +8,15 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import MailIcon from "@mui/icons-material/Mail";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import Contacts from "../../pages/Contacts";
 import Companies from "../../pages/Companies";
+import Contacts from "../../pages/Contacts";
+import Dashboard from "../../pages/Dashboard";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState();
+  const [currentPage, setCurrentPage] = useState(<Dashboard />);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -37,7 +38,7 @@ export default function Sidebar() {
               open={open}
               icon={<DashboardIcon />}
               text={"Dashboard"}
-              onClick={() => setCurrentPage(<></>)}
+              onClick={() => setCurrentPage(<Dashboard />)}
             />
             <SidebarTab
               open={open}
