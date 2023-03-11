@@ -8,8 +8,10 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import MailIcon from "@mui/icons-material/Mail";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
+import { Outlet, Link } from "react-router-dom";
 
 import Contacts from "../../pages/Contacts";
+import Companies from "../../pages/Companies";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
@@ -41,7 +43,7 @@ export default function Sidebar() {
               open={open}
               icon={<BusinessIcon />}
               text={"Stats"}
-              onClick={() => setCurrentPage(<></>)}
+              onClick={() => setCurrentPage(<Companies />)}
             />
             <SidebarTab
               open={open}
@@ -52,7 +54,9 @@ export default function Sidebar() {
           </List>
           <Divider />
           <List>
-            <SidebarTab open={open} icon={<MailIcon />} text={"Mail"} />
+            <Link to={`email-client`}>
+              <SidebarTab open={open} icon={<MailIcon />} text={"Mail"} />
+            </Link>
           </List>
         </>
       }
