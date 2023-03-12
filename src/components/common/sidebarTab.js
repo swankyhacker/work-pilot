@@ -11,7 +11,7 @@ export default function SidebarTab({ open, icon, text, onClick, currentPage }) {
       disablePadding
       sx={{
         display: "block",
-        backgroundColor: currentPage === text ? "blue" : "white",
+        backgroundColor: currentPage === text ? "#109CF1" : "white",
       }}
     >
       <ListItemButton
@@ -27,12 +27,12 @@ export default function SidebarTab({ open, icon, text, onClick, currentPage }) {
             minWidth: 0,
             mr: open ? 3 : "auto",
             justifyContent: "center",
-            color: "black",
+            color: currentPage === text ?"white" : "black",
           }}
         >
           {icon}
         </ListItemIcon>
-        <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
+        <ListItemText primary={text} sx={{ opacity: open ? 1 : 0, color: currentPage === text ?"white" : "black"}} />
       </ListItemButton>
     </ListItem>
   );

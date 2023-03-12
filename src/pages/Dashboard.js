@@ -98,7 +98,7 @@ function Dashboard() {
             <div className="w-1/4">
                 <div className="flex  mt-4 px-8 py-7 shadow-md rounded-md w-full bg-white">
                     <Avatar
-                        src="https://i.kym-cdn.com/entries/icons/original/000/026/152/gigachad.jpg"
+                        src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
                         sx={{ height: 70, width: 70 }}
                     />
                     <div className="flex flex-col ml-4">

@@ -23,7 +23,7 @@ const pages = {
 const icons = {
   Dashboard: <DashboardIcon />,
   Companies: <BusinessIcon />,
-  Contacts: <MailIcon />,
+  Contacts: <AlternateEmailIcon />,
 };
 
 export default function Sidebar() {
