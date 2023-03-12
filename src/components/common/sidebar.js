@@ -7,12 +7,14 @@ import BusinessIcon from "@mui/icons-material/Business";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import MailIcon from "@mui/icons-material/Mail";
 import Divider from "@mui/material/Divider";
+import UploadFileIcon from '@mui/icons-material/UploadFile';
 import List from "@mui/material/List";
 import { Link } from "react-router-dom";
 
 import Companies from "../../pages/Companies";
 import Contacts from "../../pages/Contacts";
 import Dashboard from "../../pages/Dashboard";
+import UploadEmail from "../../pages/UploadEmail";
 
 const pages = {
   Dashboard: <Dashboard />,
