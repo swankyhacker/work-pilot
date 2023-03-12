@@ -14,9 +14,21 @@ import Companies from "../../pages/Companies";
 import Contacts from "../../pages/Contacts";
 import Dashboard from "../../pages/Dashboard";
 
+const pages = {
+  Dashboard: <Dashboard />,
+  Companies: <Companies />,
+  Contacts: <Contacts />,
+};
+
+const icons = {
+  Dashboard: <DashboardIcon />,
+  Companies: <BusinessIcon />,
+  Contacts: <MailIcon />,
+};
+
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState(<Dashboard />);
+  const [currentPage, setCurrentPage] = useState("Dashboard");
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -34,24 +46,17 @@ export default function Sidebar() {
       sidebarItems={
         <>
           <List>
-            <SidebarTab
-              open={open}
-              icon={<DashboardIcon />}
-              text={"Dashboard"}
-              onClick={() => setCurrentPage(<Dashboard />)}
-            />
-            <SidebarTab
-              open={open}
-              icon={<BusinessIcon />}
-              text={"Stats"}
-              onClick={() => setCurrentPage(<Companies />)}
-            />
-            <SidebarTab
-              open={open}
-              icon={<AlternateEmailIcon />}
-              text={"Contacts"}
-              onClick={() => setCurrentPage(<Contacts />)}
-            />
+            {Object.keys(pages).map((item) => {
+              return (
+                <SidebarTab
+                  open={open}
+                  icon={icons[item]}
+                  text={item}
+                  currentPage={currentPage}
+                  onClick={() => setCurrentPage(item)}
+                />
+              );
+            })}
           </List>
           <Divider />
           <List>
@@ -61,7 +66,7 @@ export default function Sidebar() {
           </List>
         </>
       }
-      page={currentPage}
+      page={pages[currentPage]}
     ></SidebarTemplate>
   );
 }

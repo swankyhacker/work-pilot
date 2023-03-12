@@ -4,9 +4,16 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import * as React from "react";
 
-export default function SidebarTab({ open, icon, text, onClick }) {
+export default function SidebarTab({ open, icon, text, onClick, currentPage }) {
   return (
-    <ListItem key={text} disablePadding sx={{ display: "block" }}>
+    <ListItem
+      key={text}
+      disablePadding
+      sx={{
+        display: "block",
+        backgroundColor: currentPage === text ? "blue" : "white",
+      }}
+    >
       <ListItemButton
         sx={{
           minHeight: 48,

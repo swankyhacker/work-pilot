@@ -1,16 +1,15 @@
-import React from "react";
 import {
-  Chart as ChartJS,
   CategoryScale,
+  Chart as ChartJS,
+  Legend,
+  LineElement,
   LinearScale,
   PointElement,
-  LineElement,
   Title,
   Tooltip,
-  Legend,
 } from "chart.js";
+import React from "react";
 import { Line } from "react-chartjs-2";
-import { display } from "@mui/system";
 
 ChartJS.register(
   CategoryScale,
@@ -23,7 +22,17 @@ ChartJS.register(
 );
 
 export const options = {
-  scales:{
+  scales: {
+    x: {
+      grid: {
+        display: false,
+      },
+    },
+    y: {
+      grid: {
+        display: false,
+      },
+    },
   },
   responsive: true,
   plugins: {
@@ -35,8 +44,8 @@ export const options = {
 
 const labels = ["January", "February", "March", "April", "May", "June", "July"];
 
-const applied = [30, 25, 12, 18, 35, 42, 50]
-const rejected = [22, 18, 16, 15, 26, 36, 40]
+const applied = [30, 25, 12, 18, 35, 42, 50];
+const rejected = [22, 18, 16, 15, 26, 36, 40];
 
 export const data = {
   labels,
