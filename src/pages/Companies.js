@@ -40,7 +40,7 @@ const data = [
     company: company.AWS,
     latestRoles: [
       { Role: "Solutions Architect", Status: "PENDING" },
-      { Role: "Business Development Intern", Status: "PENDING" },
+      { Role: "IT Intern", Status: "PENDING" },
       { Role: "AI Intern", Status: "REJECTED" },
     ],
     success: 1,
@@ -92,8 +92,9 @@ export default function Companies() {
   };
 
   return (
-    <div className="flex-col">
-      <div className="flex-row flex justify-center mb-2">
+    <div className="flex-col bg-[#f4f5f7]">
+      <div className="flex-row flex justify-center mb-2 mt-2">
+        <div className="py-4 px-2">Filter By:</div>
         {Object.keys(images).map((company) => {
           return (
             <button
@@ -105,7 +106,7 @@ export default function Companies() {
           );
         })}
       </div>
-      <div className="flex flex-wrap w-11/12 ml-44">
+      <div className="flex flex-wrap w-11/12 ml-44 mt-6">
         {cards.map((item) => {
           return <CompanyCard data={item} image={images[item.company]} />;
         })}

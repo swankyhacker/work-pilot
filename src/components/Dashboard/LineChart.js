@@ -10,6 +10,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import { display } from "@mui/system";
 
 ChartJS.register(
   CategoryScale,
@@ -22,32 +23,33 @@ ChartJS.register(
 );
 
 export const options = {
+  scales:{
+  },
   responsive: true,
   plugins: {
     legend: {
       position: "top",
-    },
-    title: {
-      display: true,
-      text: "Chart.js Line Chart",
     },
   },
 };
 
 const labels = ["January", "February", "March", "April", "May", "June", "July"];
 
+const applied = [30, 25, 12, 18, 35, 42, 50]
+const rejected = [22, 18, 16, 15, 26, 36, 40]
+
 export const data = {
   labels,
   datasets: [
     {
       label: "Rejected",
-      data: labels.map(() => 23),
+      data: rejected,
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
     },
     {
       label: "Applied",
-      data: labels.map(() => 21),
+      data: applied,
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
     },

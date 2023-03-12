@@ -39,7 +39,7 @@ export default function SidebarTemplate({
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          <Typography variant="h6" noWrap component="div" sx= {{color: "#109CF1", fontWeight: "bold"}}>
             WorkPilot
           </Typography>
         </Toolbar>
@@ -57,7 +57,7 @@ export default function SidebarTemplate({
         <Divider />
         {sidebarItems}
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Box component="main" sx={{ flexGrow: 1 }}>
         <DrawerHeader />
         {page}
       </Box>
@@ -100,6 +100,7 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== "open",
 })(({ theme, open }) => ({
+  backgroundColor: "#FFFFFF",
   zIndex: theme.zIndex.drawer + 1,
   transition: theme.transitions.create(["width", "margin"], {
     easing: theme.transitions.easing.sharp,

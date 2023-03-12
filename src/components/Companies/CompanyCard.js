@@ -7,17 +7,17 @@ import { PieChart } from "react-minimal-pie-chart";
 
 function CompanyCard({ data, image }) {
   return (
-    <div className="shadow-md rounded-md w-3/12 p-2 m-3">
+    <div className="shadow-md rounded-md w-3/12 p-2 m-3 bg-white">
       <div className="w-12/12 h-40 flex px-2 py-2">
         <div className=" w-1/2 h-3/6 relative flex flex-row">
           <div className="absolute top-0 left-0 w-4/6">
-            <PieChart
+            {/* <PieChart
               data={[
                 { title: "Success", value: data.success, color: "#16A34A" },
                 { title: "Pending", value: data.pending, color: "#D97706" },
                 { title: "Failure", value: data.failed, color: "#DE3734" },
               ]}
-            />
+            /> */}
           </div>
           <div className="absolute top-2 left-2 w-12/12">
             <Avatar
