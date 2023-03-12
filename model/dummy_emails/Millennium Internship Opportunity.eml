@@ -1,0 +1,439 @@
+Received: from PUZPR01MB4730.apcprd01.prod.exchangelabs.com
+ (2603:1096:301:102::7) by PS2PR01MB2280.apcprd01.prod.exchangelabs.com with
+ HTTPS; Thu, 23 Feb 2023 11:22:33 +0000
+Received: from TY2PR06CA0024.apcprd06.prod.outlook.com (2603:1096:404:42::36)
+ by PUZPR01MB4730.apcprd01.prod.exchangelabs.com (2603:1096:301:102::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.18; Thu, 23 Feb
+ 2023 11:22:32 +0000
+Received: from TYZAPC01FT027.eop-APC01.prod.protection.outlook.com
+ (2603:1096:404:42:cafe::8) by TY2PR06CA0024.outlook.office365.com
+ (2603:1096:404:42::36) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.21 via Frontend
+ Transport; Thu, 23 Feb 2023 11:22:32 +0000
+Received: from mx08.mlp.com (174.138.227.19) by
+ TYZAPC01FT027.mail.protection.outlook.com (10.118.152.80) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6134.21 via Frontend Transport; Thu, 23 Feb 2023 11:22:31 +0000
+Received: from unknown (HELO pwsrfpexc005.AD.MLP.com) ([172.16.128.45])
+  by smtprfp2.mlp.com with ESMTP; 23 Feb 2023 06:22:25 -0500
+Received: from pwssg4exc001.AD.MLP.COM (10.160.2.13) by
+ pwsrfpexc005.AD.MLP.com (10.153.41.26) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.16; Thu, 23 Feb 2023 06:22:24 -0500
+Received: from pwssg4exc001.AD.MLP.COM (10.160.2.13) by
+ pwssg4exc001.AD.MLP.com (10.160.2.13) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.16; Thu, 23 Feb 2023 19:22:22 +0800
+Received: from pwssg4exc001.AD.MLP.COM ([10.160.2.13]) by
+ pwssg4exc001.AD.MLP.com ([10.160.2.13]) with mapi id 15.01.2507.016; Thu, 23
+ Feb 2023 19:22:22 +0800
+From: "Lee, Grace" <Grace.Lee@mlp.com>
+Subject: Millennium Internship Opportunity
+Thread-Topic: Millennium Internship Opportunity
+Thread-Index: AdlHeOxbEbhTdFlUSByz1HHclVyWmA==
+Date: Thu, 23 Feb 2023 11:22:22 +0000
+Message-ID: <be7364f40b26426d9a8afbf5b265a8ac@mlp.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource:
+	TYZAPC01FT027.eop-APC01.prod.protection.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	fa882249-1c84-492b-59a0-08db15904150
+X-MS-Exchange-Organization-SCL: 1
+X-Message-Flag: Flag for follow up
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+received-spf: Pass (protection.outlook.com: domain of mlp.com designates
+ 174.138.227.19 as permitted sender) receiver=protection.outlook.com;
+ client-ip=174.138.227.19; helo=mx08.mlp.com; pr=C
+x-originating-ip: [10.160.5.250]
+authentication-results: spf=pass (sender IP is 174.138.227.19)
+ smtp.mailfrom=mlp.com; dkim=pass (signature was verified)
+ header.d=mlp.com;dmarc=pass action=none header.from=mlp.com;compauth=pass
+ reason=100
+x-forefront-antispam-report:
+	CIP:174.138.227.19;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mx08.mlp.com;PTR:mx08.mlp.com;CAT:NONE;SFS:(13230025)(4636009)(451199018)(5202899006)(6302899006)(109986016)(166002)(36756003)(356005)(58800400005)(7696005)(336012)(83380400001)(426003)(24736004)(108616005)(26005)(2616005)(7116003)(1096003)(5660300002)(450100002)(34756004)(3480700007)(8676002)(7596003)(127190200002);DIR:INB;
+x-ms-office365-filtering-correlation-id: fa882249-1c84-492b-59a0-08db15904150
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: TYZAPC01FT027:EE_|PUZPR01MB4730:EE_
+x-ms-exchange-transport-crosstenantheadersstamped: PUZPR01MB4730
+x-ms-exchange-crosstenant-network-message-id:
+	fa882249-1c84-492b-59a0-08db15904150
+x-ms-exchange-crosstenant-originalarrivaltime: 23 Feb 2023 11:22:31.1755 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Internet
+x-ms-exchange-crosstenant-id: 15ce9348-be2a-462b-8fc0-e1765a9b204a
+x-ms-exchange-transport-endtoendlatency: 00:00:02.1027323
+x-ms-exchange-processed-by-bccfoldering: 15.20.6134.019
+x-eopattributedmessage: 0
+x-ms-exchange-crosstenant-authas: Anonymous
+x-ms-exchange-crosstenant-authsource:
+	TYZAPC01FT027.eop-APC01.prod.protection.outlook.com
+dkim-signature: v=1; a=rsa-sha256; c=simple/simple;  d=mlp.com; i=@mlp.com;
+ q=dns/txt; s=iport;  t=1677151351; x=1708687351;
+  h=from:subject:date:message-id:mime-version:to;
+  bh=Xh3qE//4GNwB/1QHZWR80p/cTIcYO+AljWGUIxhGa2Y=;
+  b=XdiLQu9JbceXo4xeaWFrS0YX59SNzd0DPT7/tAGDYBZRHSXmcXTb5P0s
+   +BE6alXD+sduEiySDmLwq4K7wXiBLFXyfaysz3sDLOvGwfUvX+dOgVN/Y
+   xh0wUqr/knpTEyXVJitifkyi9+/Z0s/UD8JmfP9923EBUT3Zu7r+mYEMf
+   PV088TcGtrR9EOixvUSgI2pFh9h+Jj2G1UEFPhwQ6+j1MrACcir+d3gm+
+   WQzeYBHUYaeihDTmptF1/HEO+4ZTs/7ttLxYADC7e5bZ/XoDU2GYkM0HL
+   zZuCsnmMU2rRpzP0tEQPaKWR83zXMCOoTDMngLwhxqkpTKb6X209uBvmk   A==;
+x-eoptenantattributedmessage: 15ce9348-be2a-462b-8fc0-e1765a9b204a:0
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?2BSqFUdpVhiLIxpSuKvXpHP94aojM/xQZ5CmFePtlLyxUHRjiLPhwgxm?=
+ =?Windows-1252?Q?FhCvq5Qj7MTyi/k1gMbRu5ASwCIlCUZ8IRn5SGBcDaxBZZjAecRBtwG7?=
+ =?Windows-1252?Q?PEeKKZQr0z4fVV8ZZ3PGbrAjAtT2NS44ITBcQRXQP2BDSSgU5wGe/F+G?=
+ =?Windows-1252?Q?w1ynfkJQ5RZC3OhVUGM21xxKx51wKvq00dU61UtHiRRgSzbmLsDvZ8eG?=
+ =?Windows-1252?Q?Ma/Q78ZjjW7NUZG9EA6+XBDyKIf6xwSnFQM2P6oujxSUmQ9sT497rWHS?=
+ =?Windows-1252?Q?t5i0zEbHG11x7qbCLVZe0qeNOm8GEhCPsbVe4zgUiI0hTPpnQxk7+Z6x?=
+ =?Windows-1252?Q?3bvdQTM+XHPKIi+d7VehPeCWCthhInXw6HSlJ2I1CO6/+D3t4gIBsESq?=
+ =?Windows-1252?Q?cLDqsRHna9rFRlEurOhXiRHcMnYynY+dS43N6aPSA4Edb9+74ttzPSVJ?=
+ =?Windows-1252?Q?DknC3NcIqAEas/yQTGkhDD4cgtqISxyfA84S8PsEBTe8IaxOLI21K3w9?=
+ =?Windows-1252?Q?KUxX8lyUqJwMeg9vXbAiNtuhP8lIFpu7FsWKGe6zdrGgGsXAfRpEZwgr?=
+ =?Windows-1252?Q?YMYa5ILVdN05SraChJatB/ziTwFq6NlUgk5gcJtxDwDAKF5uGmItDVQC?=
+ =?Windows-1252?Q?SwZM55t+gYep7lpEPp9unrPrvMfie+1lOUzCLzAmCQl+CzePt3CZjBE0?=
+ =?Windows-1252?Q?0phAx/WjxtA866DbsUT6GUy7yNcRoiYwaQ/grQPrgWVby0Ve1FtnRVhl?=
+ =?Windows-1252?Q?5BlVgMaFSqdnEpLhvMa4ssdhafJzKNjQpiOZ/JVFlwR8RymjUTRY8sAb?=
+ =?Windows-1252?Q?4nT7gkudOUD8R8aX+zeX4bPhV3wY92Yfqu1N605g6ruUo6iw6QkXYNHJ?=
+ =?Windows-1252?Q?FummWm2LiN/vhrQPvOsMUCsZNbWP35z5fTLPmsJ4NfXIPbg7hlI7eK3D?=
+ =?Windows-1252?Q?XMQL49skKHiPg1q8bW5PniPPb7ewO/wh4ymnu+pPAcXEZ3KfbSQVjBo5?=
+ =?Windows-1252?Q?evOxLqam3fSxF/Jkq50OHVVM3diVb1u1fSCwYs0iol3sstS+m+KWVdCk?=
+ =?Windows-1252?Q?Tt2SFeEL8eYshsDzKiOk3NBAUb6l8HdndxJbG0UIR0R6yUFpOQwgIypM?=
+ =?Windows-1252?Q?zQXUZjXMC9GHUB08fEviE7OgB1D2ThlyUKDuaK0eWJXJKV0N/00o2xAe?=
+ =?Windows-1252?Q?oNTmfdrkfaZ08hgXHNUylg6377kDLsaP7oNPcFo2VlvW+jDxM+Ch4Woz?=
+ =?Windows-1252?Q?jBK9iDEvppEmUGUpuhsuynImtEhpgiVxp8/3ScVO2m6I4aZobQg4M0bC?=
+ =?Windows-1252?Q?r5u+0lYQ/Ogm8xpdSMOnZwjU+JDpZdYScbjMt1aaJsAJxRmZ68A03kKF?=
+ =?Windows-1252?Q?UG0LpvoQU8ybUMtNBeygr+apuZJno5n+xR9DnHH/l4cA/b7SYcvSPLbc?=
+ =?Windows-1252?Q?Ujz1JYXNj0698Dhmmy5nhKb2BmvN2qDt/xHC61Oz4zMnslxG3UB+iLN+?=
+ =?Windows-1252?Q?4tDDuFb2QFoX+3Pmaw2jrsuEtbpqogQe2/EUfuSTEfi7TUDUWp5VlDTH?=
+ =?Windows-1252?Q?QdE2NwPCzNnrYP6t4YJPA1KAQcZGQ6i5yFVt2nDuGb18g92TdR40tU3L?=
+ =?Windows-1252?Q?Qg1J01oGHZgLLmmzTx2JlybgOeEnFFstRR5Fcn9PlEVsAkIgpkmPGldh?=
+ =?Windows-1252?Q?Od2VzKx5D7CAj4Y9gvXtnJrEDjVywvdvYYT83ERnSSCoZR5WWUY0iHIK?=
+ =?Windows-1252?Q?LM2NAIJbe0G71vb7a6+5Fj008DjcmbQrK7k2dtcAjKSiBsaxi3LuSmbk?=
+ =?Windows-1252?Q?t/zqP5aM9Sp9Yck78bRPRvqSzZnadVD43USAXSQYIWDPLBZv7+HOJCrd?=
+ =?Windows-1252?Q?3qOhEPTM1+OphNDAxiM6BnWUTcbRe756+8yo0jZhRupp4U3N+9cAKK1g?=
+ =?Windows-1252?Q?tZqHm2R3vk1Sq2Pb0kk5JnRqqfxXf/TNXwQcJ0G3V3Hn6VLsXxzuIThJ?=
+ =?Windows-1252?Q?7X5zBojOSFEQGlo8d3ltY0MYDhkr9g=3D=3D?=
+Content-Type: multipart/related;
+	boundary="_004_be7364f40b26426d9a8afbf5b265a8acmlpcom_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_be7364f40b26426d9a8afbf5b265a8acmlpcom_
+Content-Type: multipart/alternative;
+	boundary="_000_be7364f40b26426d9a8afbf5b265a8acmlpcom_"
+
+--_000_be7364f40b26426d9a8afbf5b265a8acmlpcom_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings from Millennium!
+
+
+
+Thank you for your application to Millennium Singapore=92s Equities (App Su=
+pport) internship role. Due to overwhelming applications, please assist us =
+in providing further information for our screening purposes.
+
+  1.  Your (expected) graduation month and year
+  2.  Your available period for the internship
+
+
+
+Our team will review CVs in the coming weeks and hope to connect with each =
+of you if shortlisted for an interview.
+
+
+Kindly respond to this email by 24 February 2023, thank you!
+
+
+[cid:17261f6184a4cff311]
+Grace Lee
+Human Resources Analyst
+
+Millennium Capital Management (Singapore) Pte Ltd
+88 Market Street, #37-01 CapitaSpring, Singapore 048948
+Tel: +65 6521 5248
+mlp.com<https://www.mlp.com/home/>
+
+
+
+######################################################################
+The information contained in this communication is confidential and
+may contain information that is privileged or exempt from disclosure
+under applicable law. If you are not a named addressee, please notify
+the sender immediately and delete this email from your system.
+If you have received this communication, and are not a named
+recipient, you are hereby notified that any dissemination,
+distribution or copying of this communication is strictly prohibited.
+######################################################################
+
+--_000_be7364f40b26426d9a8afbf5b265a8acmlpcom_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <115FA86B69558148886A90856731BAA3@apcprd01.prod.exchangelabs.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+p.xxxmsonormal, li.xxxmsonormal, div.xxxmsonormal
+	{mso-style-name:x_xxmsonormal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1025401923;
+	mso-list-template-ids:1427301770;}
+@list l0:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"xxxmsonormal">Greetings from Millennium!<o:p></o:p></p>
+<p class=3D"xxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxmsonormal">Thank you for your application to Millennium Sing=
+apore=92s Equities (App Support) internship role. Due to overwhelming appli=
+cations, please assist us in providing further information for our screenin=
+g purposes.<o:p></o:p></p>
+<ol style=3D"margin-top:0in" start=3D"1" type=3D"1">
+<li class=3D"MsoNormal" style=3D"mso-list:l0 level1 lfo1">Your (expected) g=
+raduation <b>
+month and year</b><o:p></o:p></li><li class=3D"MsoNormal" style=3D"mso-list=
+:l0 level1 lfo1">Your <b>available period </b>
+for the internship <o:p></o:p></li></ol>
+<p class=3D"xxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxmsonormal">Our team will review CVs in the coming weeks and =
+hope to connect with each of you if shortlisted for an interview.<o:p></o:p=
+></p>
+<p class=3D"xxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Kindly respond to this email by <b>24 February 2023,=
+</b> thank you!<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-left:.5in"><span lang=3D"EN-GB" styl=
+e=3D"mso-fareast-language:EN-GB"><o:p>&nbsp;</o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"72" valign=3D"top" style=3D"width:.75in;padding:0in 5.4pt 0in =
+5.4pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#061846"><img width=3D"45" height=3D"28" style=3D=
+"width:.4687in;height:.2916in" id=3D"Picture_x0020_1" src=3D"cid:image001.p=
+ng@01D947BC.25FFB8C0" alt=3D"cid:17261f6184a4cff311"></span><o:p></o:p></p>
+</td>
+<td width=3D"377" valign=3D"top" style=3D"width:283.1pt;padding:0in 5.4pt 0=
+in 5.4pt">
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Georgia&quot;,se=
+rif;color:#061846">Grace Lee</span></b><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#061846">Human Resources Analyst</span><o:p></o:p=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#061846">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Arial&quot;,sans-serif">Millennium Capital Management (Singapore) Pte Ltd&n=
+bsp;</span></b><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">88 Market Street, #37-01 CapitaSpring, Singapore 04894=
+8</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">Tel: +65 6521 5248</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><a href=3D"https://www.mlp.com/home/" target=3D"_bla=
+nk"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:blue">mlp.com</span></a><o:p></o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<br>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">#########################################=
+#############################<!--?xml:namespace prefix =3D "o" ns =3D "urn:=
+schemas-microsoft-com:office:office" /--><o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">The information contained in this communi=
+cation is confidential and<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">may contain information that is privilege=
+d or exempt from disclosure<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">under applicable law. If you are not a na=
+med addressee, please notify<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">the sender immediately and delete this em=
+ail from your system.<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">If you have received this communication, =
+and are not a named<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">recipient, you are hereby notified that a=
+ny dissemination,<o:p></o:p></span></font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt"><font size=3D"3"><spa=
+n style=3D"font-family: Calibri;">distribution or copying of this communica=
+tion is strictly prohibited.<o:p></o:p></span></font></p>
+<span style=3D"FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,sans-serif=
+; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-fa=
+mily: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: m=
+inor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-the=
+me-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US;=
+ mso-bidi-language: AR-SA">################################################=
+######################<br>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 10pt; mso-margin-top-alt: a=
+uto; mso-margin-bottom-alt: auto">
+</p>
+</span>
+</body>
+</html>
+
+--_000_be7364f40b26426d9a8afbf5b265a8acmlpcom_--
+
+--_004_be7364f40b26426d9a8afbf5b265a8acmlpcom_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=2304;
+	creation-date="Thu, 23 Feb 2023 11:22:21 GMT";
+	modification-date="Thu, 23 Feb 2023 11:22:33 GMT"
+Content-ID: <image001.png@01D947BC.25FFB8C0>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAC0AAAAcCAYAAAD1PDaSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF
+FGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
+TXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRh
+LyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0MzYwLCAyMDIwLzAyLzEz
+LTAxOjA3OjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3Jn
+LzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0i
+IiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRw
+Oi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMu
+YWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNv
+bS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9z
+VHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEu
+MSAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjE5MDMtMTItMzFUMTk6MDAtMDU6MDAiIHht
+cDpNb2RpZnlEYXRlPSIyMDIwLTA1LTI5VDE1OjM1OjQxLTA0OjAwIiB4bXA6TWV0YWRhdGFEYXRl
+PSIyMDIwLTA1LTI5VDE1OjM1OjQxLTA0OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9z
+aG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4x
+IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjgzYjk5ODNkLTM5ZTAtNDc2Yi05ZDY4LTg5MzRl
+ZmY5ZDAwNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4M2I5OTgzZC0zOWUwLTQ3NmItOWQ2
+OC04OTM0ZWZmOWQwMDYiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4M2I5OTgz
+ZC0zOWUwLTQ3NmItOWQ2OC04OTM0ZWZmOWQwMDYiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+
+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlk
+OjgzYjk5ODNkLTM5ZTAtNDc2Yi05ZDY4LTg5MzRlZmY5ZDAwNiIgc3RFdnQ6d2hlbj0iMTkwMy0x
+Mi0zMVQxOTowMC0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIx
+LjEgKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2Ny
+aXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+rDBSEQAA
+AplJREFUWIXt2M9rXFUYxvHPOcYaIalpaheiMUI1LtpCaV2UIiKCdSlCwEXBhZu2VBf+BS12U3dC
+IbioIBQK3RUpiAsTFXcStAYkuPAH4iaVBBva5ueMi3NHxzM3mTszJamQL1xmznPPO+9z7j33vedM
+qNfr/m/E7TbQDX0/z/cUH7EXuxGwiD+xXjF+AMN4BCu4hbvtgsLj79c+aG7jHlaL7/AQbmMCS4V2
+CG/jBEbRjzru4Dd8ho/wa0nOfTiJcRzEY0XssjTgaXyCT1ErNb37XO37pnYNz2Iw6zeH56Sr8SFO
+Ffq9YiBDTYNssIj38HGTdgYXpTszh1+KXGPoy+I/x1tFv/8QY3C46TgSg8kYyI6lGDwdg69jcCoG
+12LwUgxGYvBMDI7F4IssZjAGl2MwXrQvx2AiBj8UsU8VcQdicDwGs1n8azG4GoOY+wlD51vuwHW8
+nmkLmMcI3iz65AziWzyf6d/gO7wrTbGzJbHwMqZK9DfyfFWrxx7sx+n8B5pYxI0S/UXJ8JfF50ZM
+448S/dVc6KTkzeBKmz6zm5y7YIMHq2BRups5Y7nQielJrLXps7CBPoOvKuRYLtGGc6ET0ze7TNqI
+rVK7y/r0S2X3Hzox/XuXSSmfq2WUTZ8oK6edmK7y7sxrdYO/OsjTlqqmV6QHpVs2mjZdUdX0qn9f
+4d2w0kNsC1VNr/eYuOoCqhKdmN6sxrajl9gWqppec5+vVi9UNV0vjgeCrdq53NcBVzVd6zHxtszp
+B4od01vFjmm9V4my+BatD0eb2o2ddc7DOCwt8ndJq7afCv2gtN69I+3YyxiV9o4D0krwR+n/jRE8
+Ib28asX5nEdxRFr/RNLGtpurM4VX8KS0xSpLthkvSHvCS3in0+R/A6GGijw6IJnjAAAAAElFTkSu
+QmCCAA==
+
+--_004_be7364f40b26426d9a8afbf5b265a8acmlpcom_--

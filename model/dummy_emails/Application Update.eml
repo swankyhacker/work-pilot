@@ -1,0 +1,160 @@
+Received: from SEYPR01MB4174.apcprd01.prod.exchangelabs.com
+ (2603:1096:101:56::7) by PS2PR01MB2280.apcprd01.prod.exchangelabs.com with
+ HTTPS; Tue, 7 Mar 2023 09:24:07 +0000
+Received: from PS2PR06CA0003.apcprd06.prod.outlook.com (2603:1096:300:56::15)
+ by SEYPR01MB4174.apcprd01.prod.exchangelabs.com (2603:1096:101:56::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.14; Tue, 7 Mar
+ 2023 09:24:06 +0000
+Received: from PSAAPC01FT065.eop-APC01.prod.protection.outlook.com
+ (2603:1096:300:56:cafe::e0) by PS2PR06CA0003.outlook.office365.com
+ (2603:1096:300:56::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6156.29 via Frontend
+ Transport; Tue, 7 Mar 2023 09:24:05 +0000
+Authentication-Results: spf=pass (sender IP is 160.34.15.20)
+ smtp.mailfrom=emerson.com; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=emerson.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of emerson.com designates
+ 160.34.15.20 as permitted sender) receiver=protection.outlook.com;
+ client-ip=160.34.15.20; helo=chclsmtp03.us2.oraclecloud.com; pr=C
+Received: from chclsmtp03.us2.oraclecloud.com (160.34.15.20) by
+ PSAAPC01FT065.mail.protection.outlook.com (10.13.38.142) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6156.28 via Frontend Transport; Tue, 7 Mar 2023 09:24:05 +0000
+Received: from chclmv0414.usdc2.oraclecloud.com ([10.193.143.94])
+ by chclsmtp03.us2.oraclecloud.com
+ (Oracle Communications Messaging Server 8.0.2.1.20180104 64bit (built Jan  4
+ 2018)) with ESMTP id <0RR5000N18RRLC70@chclsmtp03.us2.oraclecloud.com> for
+ siddhant005@e.ntu.edu.sg; Tue, 07 Mar 2023 09:23:51 +0000 (GMT)
+Date: Tue, 7 Mar 2023 09:23:46 +0000 (UTC)
+Message-id: <bb61ffb50a338ab77742d779a2f55e6b.ums@oracle.com>
+Subject: Application Update
+Content-type: text/html; charset=utf-8
+Content-transfer-encoding: quoted-printable
+X-EmailDriver-Message-ID: bb624bc00a338a932225972592c05517
+X-ORACLE-EMAILOUTBOX-ID:
+ /notification/idcs-a5516e28558f4297bc073815e86fa4c1/.HCM-629678158-629679463/api/v1/emailOutbox/ad674030-b8bc-484f-be3d-588d0f7d924a
+From: Bee Yee Chiew <DoNotReply-HR@emerson.com>
+Sender: Bee Yee Chiew <DoNotReply-HR@emerson.com>
+To: siddhant005@e.ntu.edu.sg
+X-ORACLE-NOTIFICATION-REQUEST-ID:
+ notification/idcs-a5516e28558f4297bc073815e86fa4c1/.HCM-629678158-629679463/api/v1/components/common/notificationTypes/default/notificationRequests/b5262d95-409b-4cf6-904f-b3b06196d70e
+X-ORACLE-NOTIFICATION-RECIPIENT-ID: 2d04c9a7-3703-45fc-94e4-c9b478c9a0fa
+Return-Path: DoNotReply-HR@emerson.com
+X-MS-Exchange-Organization-ExpirationStartTime: 07 Mar 2023 09:24:05.9832
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ e21ebffd-18c3-449b-eef9-08db1eedb2da
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 15ce9348-be2a-462b-8fc0-e1765a9b204a:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: PSAAPC01FT065:EE_|SEYPR01MB4174:EE_
+X-MS-Exchange-Organization-AuthSource:
+ PSAAPC01FT065.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: e21ebffd-18c3-449b-eef9-08db1eedb2da
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:4;
+X-Forefront-Antispam-Report:
+ CIP:160.34.15.20;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:chclsmtp03.us2.oraclecloud.com;PTR:chclsmtp03.us2.oraclecloud.com;CAT:NONE;SFS:(13230025)(4636009)(286005)(451199018)(39670700001)(7596003)(3480700007)(84970400001)(7636003)(356005)(39500700002)(34756004)(8676002)(26005)(6916009)(6666004)(9686003)(86362001)(36756003)(1096003)(4744005)(83380400001)(7116003)(7846003)(16722985003)(336012)(58800400005)(15650500001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Mar 2023 09:24:05.6238
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e21ebffd-18c3-449b-eef9-08db1eedb2da
+X-MS-Exchange-CrossTenant-Id: 15ce9348-be2a-462b-8fc0-e1765a9b204a
+X-MS-Exchange-CrossTenant-AuthSource:
+ PSAAPC01FT065.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEYPR01MB4174
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.1318395
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6134.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?cTc4V0xxOWJpeGNRWnhicGhNWmJQRzdMZ1VkVUo0U1E2eXFuSjVLTDFVVzJN?=
+ =?utf-8?B?OU52cTZ3QzRkclEvWmcyOTBLUXRZVUpWYS9hUGsvKzBoa1QyR0YrU1dMTmJu?=
+ =?utf-8?B?L1pueHBqSnQ5MDZObHJ6eDc2UjU5MFcrbUg1ZEpReU9zVkZLN01CNDVxR1BS?=
+ =?utf-8?B?YjF0STJHdk9uYnpUbytzSGh6NHExZHRrWXBBWmkwZ3RqREIzN0lFcWtVVnU4?=
+ =?utf-8?B?LzhjV2h2S3ZRMjRhVkhNTm5KZCs0Zzdldnh2SHFNYjArWXJQV0tQaVVyUlpN?=
+ =?utf-8?B?VzNOeDRWWXovZWxLR2wrOU5vSnNBd2gxYVd3NGxzOFUyM2swNWtKcTFiczc1?=
+ =?utf-8?B?bmFiRHI2bEdOcjVoS3R4cmQ3UEpTMkZzRGFaeXUyVmF0a1RFMGlTczlBNEMy?=
+ =?utf-8?B?OG5ad0pLWU5RcG9LYW51WUVhQVJOM2FEUVNUR3l1dlpIQmMzbE85TlhGeXFp?=
+ =?utf-8?B?UFVjL2Q5VFRvM2hnR3BleGFINzlOMERqeGlWUDcxNFNKaVNkTzYxcWRCTHhG?=
+ =?utf-8?B?SHJJWnhFK05NSXRiM3NxNnRpTVh4SzVCa3ZBQVIxSHA3eXJjNSttQTIwM1NI?=
+ =?utf-8?B?UVZGZllvdUpjRFdXNjYvcWVXaUFQdE11QUdBWmQxcURCUDhYZnNHQVdkN1d1?=
+ =?utf-8?B?SHRHY0NlT3BJeldqVytuRjdRUExSRlFpUTFWVFgrNkFRL0MrVFMvYnNrUTdw?=
+ =?utf-8?B?UFlGL1BsSXRQM1ROdEw1Nk5ybE9Cb3llSDMzcU9DTDBEUmJoeGZqREtKWENZ?=
+ =?utf-8?B?MFVDM3FncXp1c1RmdGtVTlNUakZXajdBaDB1RzZWYWZ1dmV1VFJJZ1BXVUcr?=
+ =?utf-8?B?Q1JlaGowK2IvazNUSk5hMlAwNFVnTVZCM1FVSGNOZjFpV0p6dEVVVUxKeWN3?=
+ =?utf-8?B?ejR0RVR3cXBkRnNOUEV1VDNUdWNSV1BXc25NZHR5SGJsRDJNUjl5VlQ5L3Jk?=
+ =?utf-8?B?SFFlYlpIeGRLLzZWWWdSSHdWbjlVVDhCUFRQS1JPam1KQzBnWkhrenlmUVZk?=
+ =?utf-8?B?akhWYWVwM01YMzAzS2Q1M3FMQ0xGc1VlS2VicUZQdEptZmE4ODJBTzY5Tk9k?=
+ =?utf-8?B?bC9vZ0tWanZaMWRRNGs3S3p3V0YyVm9BaG96UlA2M2MrLytTNUpEb2xMWEpQ?=
+ =?utf-8?B?OVJrZ013UU81TG5adXFYSDlrVEFvVWpwY2ZEZ3ppNzdvbDBnQkxVeDZhdjNU?=
+ =?utf-8?B?a2F3b3M1cDRPcW14eWVrdGEzamtLVWdIdWR5SmE1QkdzTlk5KzhTaWdoVm9V?=
+ =?utf-8?B?ZVI2TTdGTCtVL2htU2NSZWpuMVFLYUMwYndWamZQNUNrb1E4V1FBb1NzMU4y?=
+ =?utf-8?B?Z0JYZ2ZjeUtEdnBKMm9xYUhKdTBGYldNaVdmVHQzYTI5VzFlR21JMWN1NWpF?=
+ =?utf-8?B?UG53Wko1ZFpRRmMxckVzblJkRm1lNmZTQ1hLMjZXSkh5N2lIcWhSekhDNHQ3?=
+ =?utf-8?B?MnJ6QWl2N0pIcDVtaXRob25JMG5VQzYzZ05lUjFKSVU5VGJYOVNRMzBKNWVq?=
+ =?utf-8?B?dzZQWUFVbmhFSnFtdjRCWXp0WitoWTRhV3J3L3AyWUlhRW0vL0NRbE5wZFBI?=
+ =?utf-8?B?ZFhiS1FvQ2JHb0ZMaTkxNUVMMG85RGsxcm5UMGZJZnpncUw0RjNWMy95U01a?=
+ =?utf-8?B?bTl3Nzc3ZCtXcVl6Z0s5ZEdOZjRVZmExRmZRSXJmdGJoRGxsV2hBR2tsQnNJ?=
+ =?utf-8?B?OHlkeDdUUUZBdExVVTI5cTNscFRTWEdZTlRWNTAyREhEM2xVeWxFM0lhU1N2?=
+ =?utf-8?B?Nkd5bmh0MXBUYnBxYlZDUDBtaFJiVGZ2cytaaUhrY3FPQ2h6d1ZrSVovb0VM?=
+ =?utf-8?B?MTBqSFJxTWY5N1BMTlYrQVJCN2wzVys3K0lmSlR6Q3hoTmVCYURyK05qaExw?=
+ =?utf-8?B?RS93dXZ5Q0ZaakhJeVVESzhrM3BJR0RWbmppcVEreGpSNmZ6S0pqdnpOeWsx?=
+ =?utf-8?B?WEFHNHRCc0dUVEYrQUdBOEg0dTliRTM2OEw1eGdTaSt3K3ZPWUtiQXdJb0E0?=
+ =?utf-8?B?ZDlBL2RVVFNIbXh2VUY2amNITWJ4QTRlY0RvNmh5Tis1eEdhOGtmOHVkKy9w?=
+ =?utf-8?B?dGh6bWVaR0drS20rSDJUK1lueDJXb3V4VFlGcE5tbCt5UU1YaTNERVJ3MVBa?=
+ =?utf-8?B?S2txaENkSk5Pd0VYMjFPT2dtdnRBQ09TeFoxM1plelZ4R1FBQ2Rkc1FWZ3hh?=
+ =?utf-8?B?T1VES3JQbzE4cGZla0pXZUNWV2c4OUNEaVJ2Vnc2dG82eHp6b3Btek9ScjV5?=
+ =?utf-8?B?TXBtb0p1VG1DRGttUTNUYVdXdkE5YWpwNkRHNmR6UTk1NDVETWo3TisrL0tp?=
+ =?utf-8?B?YjdWcFBuSDZyQkZCcFpBN0dSTEptTWZaMGNmZU9YbmVvYTdDWmsvcURKSEdX?=
+ =?utf-8?B?allsMFNjWHZ3NWpaNGlQdHdIbUdjRjRteHVzaFErbjlxQTZhYk42Q0pXTU5m?=
+ =?utf-8?B?NE5WUy9xZlVrWU96cDhQdGNObXA3QkRVUWIvd0g1QkMxMVBWRGd2OGNVY3RW?=
+ =?utf-8?Q?n9EzpClLrhT?=
+MIME-Version: 1.0
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv>
+  Hi Siddhant,=20
+</div>=20
+<div>
+  &nbsp;=20
+</div>=20
+<div>
+  Thank you for your interest in Emerson. We appreciate the time you have t=
+aken to apply for the&nbsp;Data Analytics Intern -&nbsp;22023748&nbsp;oppor=
+tunity. We=E2=80=99ve carefully considered your application. At this time w=
+e are moving forward with other candidates who are a stronger match for thi=
+s role.&nbsp;=20
+</div>=20
+<div>
+  <br>=20
+</div>=20
+<div>
+  For future opportunities, please visit Emerson.com/careers and subscribe =
+to notifications for positions you may find of interest.=20
+</div>=20
+<div>
+  <br>=20
+</div>=20
+<div>
+  Again, thank you for your interest in a career with Emerson and good luck=
+ with your job search!=20
+</div>=20
+<div>
+  &nbsp;&nbsp;=20
+</div>=20
+<div>
+  Best regards,&nbsp;=20
+</div>=20
+<div>
+  Emerson Talent Acquisition Team=20
+</div>

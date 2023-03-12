@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# WorkPilot
+<div style="text-align:center">
+<img src="./src/assets/images/Dashboard.jpeg"  width="600" height="300"> 
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
 
-## Available Scripts
+Are you tired of drowning in the sea of job applications, struggling to keep track of everything? Do you wish for a simple and efficient solution to take your job search to new heights? Look no further, for **WorkPilot** is here to revolutionise the way you approach your job hunt. Say goodbye to chaos and welcome the order and control you've been longing for. Join us today and take the first step towards your dream career.
 
-In the project directory, you can run:
+## What it does
 
-### `npm start`
+WorkPilot is an innovative platform designed to simplify the process of managing job applications. By connecting directly with your email, the system automatically analyzes and categorizes your job applications for the follwing benefits:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Presenting emails in an organized and easily accessible format on your personalized dashboard.
+- Filter applications by company and track their progress to stay top of your job search with ease.
+- View the entire email thread related to a specific application for valuable context and ensuring that you never miss an important communication.
+- Experience a streamlined and efficient job application management process with our cutting-edge website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How we built it
 
-### `npm test`
+The WorkPilot was built using state-of-the-art technologies and tools.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Machine Learning**: To enable the platform's intelligent email analysis, we implemented machine learning and natural language processing (NLP) techniques. Specifically, we trained a **Multinomial Naive Bayes classifier** on a corpus of job application status update emails, while the Spacy library was used to extract information (Named Entity Recognition) from the emails.
+- **Front-end development**: For front-end development, we leveraged **React** and **Tailwind CSS** to build a sleek and intuitive user interface.
+- **Cloud Architecture**:Our deployment architecture relied on a suite of AWS services, including **Fargate, Cognito, S3, SageMaker, DynamoDB, Application Load Balancer, and Auto Scaling**. This enabled us to deliver a scalable, secure, and high-performance application to our users.
 
-### `npm run build`
+## Challenges we ran into
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+During the development of WorkPilot, we faced several challenges that required creative solutions:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Integratiion with multiple cloud technologies, which required careful planning and coordination to ensure smooth interoperability.
+- Containerizing our web application, which involved configuring and deploying the necessary infrastructure to support a containerized environment.
+- Implementation of email parsing for Named Entity Recognition, which required fine-tuning our algorithms to accurately identify relevant information.
+- Curation of a private data source to train our machine learning models. This involved sourcing and collecting a large volume of relevant data, carefully cleaning and organizing it, and ensuring it met our strict quality standards.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Despite these challenges, we persevered and developed a robust and effective solution that meets the needs of our users
 
-### `npm run eject`
+## Accomplishments that we're proud of
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We are incredibly proud of the many accomplishments we achieved during the development of the Job Application Management website:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The design of a modern data architecture supports **high availability, low latency, and high security**. This enabled us to deliver a **fast, reliable, and secure platform** to our users.
+- Successful integration with email clients to **automate and streamline** the job application management process.
+- High accuracy of our Multinomial Naive Bayes classifier, which **effectively categorizes and organizes** job application emails for users.
+- Successful implementation of cloud technologies, which allowed us to deliver a **scalable and efficient solution** that meets the needs of a wide range of users.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Overall, we believe that our accomplishments reflect our commitment to delivering innovative, high-quality solutions that make a real difference in people's lives.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## What's next for WorkPilot
 
-## Learn More
+Looking ahead, our next priority is to expand our target audience by making WorkPilot accessible to students for tracking their university applications. By broadening the scope of our platform, we aim to provide valuable support and assistance to students in managing the complex and often overwhelming process of applying to colleges and universities.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To achieve this goal, we plan to leverage our existing technology infrastructure and expertise, building on our experience in developing and deploying cloud-based solutions that are fast, reliable, and secure. Additionally, we will need to refine our algorithms and machine learning models to effectively categorize and organize university application emails, ensuring that our platform delivers the same high level of accuracy and performance that our users have come to expect.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Overall, we believe that expanding our platform to serve the needs of students will allow us to make a positive impact on a broader audience, while continuing to deliver innovative and effective solutions that simplify and streamline the application management process.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Submission by **Akshit Kumar, Siddhant Pathak, Ronan Mahtolia**

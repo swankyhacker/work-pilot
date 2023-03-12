@@ -1,0 +1,200 @@
+Received: from SEYPR01MB4248.apcprd01.prod.exchangelabs.com
+ (2603:1096:101:59::14) by SG2PR01MB2282.apcprd01.prod.exchangelabs.com with
+ HTTPS; Wed, 22 Feb 2023 10:43:42 +0000
+Received: from SI2PR01CA0006.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:191::14) by SEYPR01MB4248.apcprd01.prod.exchangelabs.com
+ (2603:1096:101:59::14) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.19; Wed, 22 Feb
+ 2023 10:43:37 +0000
+Received: from SG2APC01FT0038.eop-APC01.prod.protection.outlook.com
+ (2603:1096:4:191:cafe::d8) by SI2PR01CA0006.outlook.office365.com
+ (2603:1096:4:191::14) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.18 via Frontend
+ Transport; Wed, 22 Feb 2023 10:43:36 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.219.171)
+ smtp.mailfrom=sleek.com; dkim=pass (signature was verified)
+ header.d=sleek.com;dmarc=pass action=none header.from=sleek.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of sleek.com designates
+ 209.85.219.171 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.219.171; helo=mail-yb1-f171.google.com; pr=C
+Received: from mail-yb1-f171.google.com (209.85.219.171) by
+ SG2APC01FT0038.mail.protection.outlook.com (10.13.37.151) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6134.19 via Frontend Transport; Wed, 22 Feb 2023 10:43:35 +0000
+Received: by mail-yb1-f171.google.com with SMTP id e82so9573756ybh.9
+        for <siddhant005@e.ntu.edu.sg>; Wed, 22 Feb 2023 02:43:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=sleek.com; s=google;
+        h=to:subject:message-id:date:mime-version:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=8tkprgWEooSiznyjILC4Qil8WRXy4baZsLqzieZAnSY=;
+        b=Eo7ZpUjJwtsN58Qg1mphMeSgNQgA2bx9FL48qktinNhZEiO7Y9iqrFeuWH+11xMp8r
+         fc79BZGxeFKlrxU8cj1B/10BHz14gu+srPJK20E0rLd8FDVGE9UiuGzAZB/lFzn9g8d8
+         QMlHOgdaubXCTxOJ0I0VxOaQwo6yMfsVB1+CgSkcPNaeNnodHUqnzMhkcryk2d5RLjJf
+         nbFVyGj1Q6XF7V5Abf2DJkCBRbPmelspFw8FCxgksfai+gmkKFt+i2sqK3/LvvwZjVw4
+         fpNMieZLwdNRUv6rbuKejOU4W15VwRJUf4fKQHg/9nagtRn3gJj8Z/x6tteAA67d1cgQ
+         w1JA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:mime-version:from:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=8tkprgWEooSiznyjILC4Qil8WRXy4baZsLqzieZAnSY=;
+        b=3hNo4VVPQZ8VsNc0iZ5QS1yemMxwAcoW7lhQAKAZOH/YS4rAwtf9VxXq9WmJedkkkS
+         +IBAYndwzN2lVqsMDPBogR0ZbieSWRz0zl5FEDpIa+fJ6WVNmbIjjoaYwRYdGPiRVYIJ
+         WNPEfcICqJxoZ6OPIeKGIVleeu/0KiC7H0zVzW/Wlm8xLihDXVa5hH4GZSeOarAo/kfC
+         gY/5v45bfA/dQ4Dcrquux1i9eDmWKX4KNQiZTrE2fTfxugKzpmY+atyU8Fj7SOeKy3Lb
+         JGWrcsp+aQhMIm5jwJWiKxHzvXXKM9c1p3uG9goKRF2LDLjIDuYCU2vx4c6/mfILumxT
+         dQIA==
+X-Gm-Message-State: AO0yUKXk/6vQnUpzAjnFs+FsopqAC/Vxt18A0mvt8SYaGWOf7F9DRfGo
+	bNQENRTlm6SyTeE5fxZSKQofl/SksgykrV1M3jf/1uflovD8I7tAzPgCdDApo+NRpNGUrRDMU/E
+	j4BxIj9Nk0chRou2Sz6RRcBYZ0Kax+UNbWetzHpI=
+X-Google-Smtp-Source: AK7set8MeGpoczUkvYwdiFCxtY/+ipGVzDLmcjdHqmCaIXKu4YsADzndW32GzZ3mvliILSyiHpw56dzeqoD8QAvBqvI=
+X-Received: by 2002:a25:9887:0:b0:8b1:b64c:639 with SMTP id
+ l7-20020a259887000000b008b1b64c0639mr2403532ybo.407.1677062613698; Wed, 22
+ Feb 2023 02:43:33 -0800 (PST)
+Received: from 371208450237 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 22 Feb 2023 02:43:32 -0800
+From: Alexis Colmant <alexis.colmant@sleek.com>
+Date: Wed, 22 Feb 2023 02:43:32 -0800
+Message-ID: <CAB6S+TVyq3MGFV1ATZVA4xA7GDD0ZNdaz8gO=EL0h-KaJ-ciqg@mail.gmail.com>
+Subject: FinTech Intern - Sleek
+To: Siddhant Pathak <siddhant005@e.ntu.edu.sg>
+Content-Type: multipart/alternative; boundary="0000000000005b2ca805f5479111"
+Return-Path: alexis.colmant@sleek.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Feb 2023 10:43:35.9163
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ a19abfbb-f1d7-466a-3787-08db14c1a696
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 15ce9348-be2a-462b-8fc0-e1765a9b204a:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SG2APC01FT0038:EE_|SEYPR01MB4248:EE_
+X-MS-Exchange-Organization-AuthSource:
+ SG2APC01FT0038.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: a19abfbb-f1d7-466a-3787-08db14c1a696
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:209.85.219.171;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-yb1-f171.google.com;PTR:mail-yb1-f171.google.com;CAT:NONE;SFS:(13230025)(4636009)(451199018)(34756004)(1096003)(9686003)(336012)(33964004)(26005)(8676002)(6916009)(86362001)(15974865002)(55446002)(44832011)(5660300002)(83380400001)(7636003)(7596003)(58800400005)(166002)(356005)(43950500002)(44020500001)(14943795004);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Feb 2023 10:43:35.9163
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a19abfbb-f1d7-466a-3787-08db14c1a696
+X-MS-Exchange-CrossTenant-Id: 15ce9348-be2a-462b-8fc0-e1765a9b204a
+X-MS-Exchange-CrossTenant-AuthSource:
+ SG2APC01FT0038.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEYPR01MB4248
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:06.2399708
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6111.021
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?N3p5V3U2OTZERkJWNkw4dWtsNU1wMXRrSlB1RlB3Mk54Y3pOZ0NRRXN0TXlr?=
+ =?utf-8?B?UGdnK1c3bUl4TnVTbk43K1ZNN2o0Vm5laWxTMngzajBxNUpuZFNISUZyWVNL?=
+ =?utf-8?B?UEEvYVVqcm5pZldoZ3dFRkx0azExQjZWd08ybCtQdEdNNzZXVXZFNzZuYlBw?=
+ =?utf-8?B?WlhvMFNlQlh2NkhWSzdQTU90dEdINVJSemZZdEZFK2hGbHo5V3Erc0YvSXZF?=
+ =?utf-8?B?SGVjaFNnbmpwdkwrQTJxRGhBbmNpMGlPd2lIUnR3KzVkWWNyVC9lUDRnOGtO?=
+ =?utf-8?B?L2Rhd2tNTUVMeUxwcUE3c3ozYWRkMVRrUUdxZ1F0VkZPcHBCbm5nSDU2SExX?=
+ =?utf-8?B?WS9XR2Y1L0p6Rk9pUFNzZFlBWW5lM3dBU09JNFRDTkRMUXRtaTV5UVR2eXZN?=
+ =?utf-8?B?SXd1WWxwc1BXNlZoTWdFWUdlUkZianJDVUFYRUlsa3B0Mm5DenQ1ZzMrMzd4?=
+ =?utf-8?B?WHB6YWVjS0FvU3F0bU1KaVVMRmtaekg1d0k2Lzh4dzRSWHJ1ZXBzYU1MNkEw?=
+ =?utf-8?B?RDYzSnZ3VWZBNldUVDBpT1Jkekk4MHFSV2tycVdpOEJHS2s1c2JGYkpCK1ky?=
+ =?utf-8?B?RFlmR1l6QnNyeTgyZkg2WGRuUFBZNmlmZDI2RDRWdTFiZ3ZvTWdQSHZkaXMz?=
+ =?utf-8?B?Z1FJMFhaandoZ3MxTXB3cFdEL0dwWFBwdXdSSG5EKzFWeTZCTGdQTStRMW9L?=
+ =?utf-8?B?M3hLeXBHeWRMUzh4YzRVT0JvOTV0dnpSTi9vbkRoSkMyRU5LbUFTZFZaZyt3?=
+ =?utf-8?B?Nktza0trNU1MbXcyTlRVUFBIa3Y0Y1NINXVITXJBc1JodVZaNHpIUG0wQ0U3?=
+ =?utf-8?B?SktWRG9lZllYcm43dkZlMU11clh2YXVpY3Y1Z0pMZTZzUWNhRnkzbUNmakMy?=
+ =?utf-8?B?eTBrd3F5MEhGbk5PQ0VKV205UXVYWUR0ZDVyTGg4VXRlVTJZMzh3M0VqU1Iz?=
+ =?utf-8?B?djdTVVdTWHhzTUpFcldQSjVUTFhXUElBUDIyS2REcTVob3M3VGVCT3d1Mm9r?=
+ =?utf-8?B?ekVaMTJ3d2RyWW5xQ3FlSUlqNEh1UFBBRDYvais1cUxYa1dzK3JGVGlEUmFt?=
+ =?utf-8?B?LzRSbFpCbDhYQURSTitVSzFvRktJMUg2c3VoRm1mdjNsWURtK0xmcXVIbjlR?=
+ =?utf-8?B?K2ptT1Q3Z1lqVi9RMGlaYk5tSnlNM2xkSjR0eHY3bG1uN2E4Zjk1NTROVGU1?=
+ =?utf-8?B?RWdBNXV1aGJPdW5oMXhGZUpmTURFMXhIbVJpR25qNnJYem5kNE9OT0lJSXRB?=
+ =?utf-8?B?aHphOWgyejhFRzNWTFE3ZUxQWThoRGdFU1Y0Z0FrSWNPbW45OXJxNXJ1Qk9i?=
+ =?utf-8?B?UGwxS1ZkL0FSOUhicTFsOWxqT1RaUnZKckVsUSs2UmRpKzhJVjI2Y2loOGFC?=
+ =?utf-8?B?TzZZbEhpcU9seG5BTXlPWlV0WEZEdkY3QjJLaHBqdVVGaHRpTHNTY1F1S2RO?=
+ =?utf-8?B?Y0FtUEcrMXkvbkxSSXRIb1FGNktEUVFlTGt5bnZGN3JYK0FQNGhVdDF6bFZG?=
+ =?utf-8?B?NmpoN3owY1hhVTFiZFhVc3FwV05wS29GSE5kRWFiUUtDYnR2Z1N5bC92UTJH?=
+ =?utf-8?B?TWJKZXNsYVczWVY1NzQyblJuL1p3NGJsRjFBNmJVQ2JNZG9XdFlVUjlFRW9x?=
+ =?utf-8?B?ZU5yaUhnVW1RNFVKbVRQNSt0cGgzOHhnaWZOQ2hDd3Q2ZnJ6SHdpLzl2b1pB?=
+ =?utf-8?B?Q1J2Z1JwV1Q2QkY0dW5MNXB6ejVIbG5NMGtmYXJtV3VINUp1YVYybkJ6dUw5?=
+ =?utf-8?B?S24rbTE1Q0tCU2QzL2xvWCthcmJsMld2bWN4emZqcm1GVFB4L2RKR0ZJS3Mr?=
+ =?utf-8?B?dkZlaFpSVjU3RW14UHliL01BTUZTbGF0TTJaK3VXbUdVdEZaeGVJNDNoTWFC?=
+ =?utf-8?B?RXFFNVpwcWtqYk5qK1c0WVNvam9VVHo1dURMMUF2SWgya2ROOXhsc003QVg0?=
+ =?utf-8?B?VU9hNkdENVB0ekZRY1RBd0FnSjJQbWxMNm84eWR2RnJkVUVzZTVNZEpsbHdw?=
+ =?utf-8?B?WDJiVVlEc3BYVk40UVVaVUpzenUwNkZnZU9Zdmo4VjZDNHZ0aFdIMlQvaGQy?=
+ =?utf-8?B?TWc5QVJWeUVFRzlhVHcxczlQREh4TjhTa21TM3EyZ3lZS0dkZzUyUXlUdTEr?=
+ =?utf-8?B?aHFwSURtNXMxUG5QdTZ1L1FPbzNxMU9Hdmx1ZWRDdzNqZXgyU2d5U2YzSGNK?=
+ =?utf-8?B?NnYxVUMwR1dLK01LL285czZXVXlEcGtQTkVBeWo1bWErWnQvY0FBVE1Idkln?=
+ =?utf-8?B?ckN2R3lQTjR6Y2llcE5kTFNNY2V0Mmh4VlZ4Nm1tZW94czFzcGxqMngvWElN?=
+ =?utf-8?B?UVlabTk3NGsxb3NGQ1IxUzY5QnUwOE1KSTd5bitMYmxIZFBkYXI4L1dwMEp1?=
+ =?utf-8?B?ZTRSdlJLZjFIQTZGWG1OdnBSZVBmdmhEMEVWYmducW92dURCODZzdGZGMGFH?=
+ =?utf-8?B?WXZQc3gvUHlMZTVQNTVqZ1FPbTlIb1hKSEU1a1hadktMUmFkVzM1WmxaWGVr?=
+ =?utf-8?B?M2Fxb2UzMTQ3cDVCSDRNUHl5aWdzVzZIZEQxbFNsMWdHZTFsRkNNU3YrR1k0?=
+ =?utf-8?Q?eTEll71vpaFLSBbk1fM61jqS/bz+eL?=
+MIME-Version: 1.0
+
+--0000000000005b2ca805f5479111
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Siddhant,
+
+We have well received your application to join Sleek. You took your first
+step in joining one of the fastest growing Tech start-up! Congratulation!
+
+We will review your application as soon as possible and get back to you
+with some feedback.
+
+In the meantime, prepare yourself for an amazing journey and visit our
+website on www.sleek.com to learn more about us.
+
+The Sleek HR team
+
+-- 
+CONFIDENTIAL: This email and any files transmitted with it are confidential 
+and intended solely for the use of the individual or entity to whom they 
+are addressed. If you have received this email in error please notify your 
+system manager or email administrator. This message contains confidential 
+information and is intended only for the individual named. If you are not 
+the named addressee you should not disseminate, distribute or copy this 
+e-mail. Please notify the sender immediately by e-mail if you have received 
+this e-mail by mistake and delete this e-mail from your system. If you are 
+not the intended recipient you are notified that disclosing, copying, 
+distributing or taking any action in reliance on the contents of this 
+information is strictly prohibited and may be subject to prosecution.
+
+--0000000000005b2ca805f5479111
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+>Dear Siddhant,</p><p>We have well received your application to join Sleek.=
+ You took your first step in joining one of the fastest growing Tech start-=
+up! Congratulation! </p><p>We will review your application as soon as possi=
+ble and get back to you with some feedback. </p><p>In the meantime, prepare=
+ yourself for an amazing journey and visit our website on <a href=3D"http:/=
+/www.sleek.com" rel=3D"nofollow noreferrer noopener" class=3D"external">www=
+.sleek.com</a> to learn more about us.</p><p>The Sleek HR team</p>
+
+<br>
+CONFIDENTIAL: This email and any files transmitted with it are confidential=
+ and intended solely for the use of the individual or entity to whom they a=
+re addressed. If you have received this email in error please notify your s=
+ystem manager or email administrator. This message contains confidential in=
+formation and is intended only for the individual named. If you are not the=
+ named addressee you should not disseminate, distribute or copy this e-mail=
+. Please notify the sender immediately by e-mail if you have received this =
+e-mail by mistake and delete this e-mail from your system. If you are not t=
+he intended recipient you are notified that disclosing, copying, distributi=
+ng or taking any action in reliance on the contents of this information is =
+strictly prohibited and may be subject to prosecution.<br>=
+
+--0000000000005b2ca805f5479111--
